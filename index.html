@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Matflix</title>
+  <!-- Google Font | Open Sans-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+  <!-- Bootstrap 3 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Font Awesome stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header id="main-header">
+    <!-- Main Nav -->
+    <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-     toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="assets/logo-matflix.png" alt="Logo Matflix"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#row-title">La mia lista</a>
+            </li>
+            <li>
+              <a href="#new">Nuovi arrivi</a>
+            </li>
+            <li>
+              <a href="#film">Film</a>
+            </li>
+            <li>
+              <a href="#serie">Serie TV</a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+    <!-- Jumbotron -->
+    <div id="jumbo">
+      <div class="container-fluid">
+        <div id="row-film" class="row">
+          <div class="col-sm-3 col-md-3 col-lg-3">
+            <img src="assets/ince-logo.png" alt="inception film logo">
+            <p >Dominic "Dom" Cobb è un professionista che si occupa di "estrarre" segreti dalle menti delle persone mentre queste dormono, infiltrandosi nei loro sogni.</p>
+            <button id="play-button" type="button" class="btn btn-default">Riproduci</button>
+            <button id="info-button" type="button" class="btn btn-default">Altre info</button>
+          </div>
+        </div>
+        <div id="row-title" class="row">
+          <div class="col-md-2 col-lg-2">
+            <h3>La mia lista</h3>
+          </div>
+        </div>
+        <div id="row-lista" class="row">
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <img src="assets/lista1.jpg" alt="">
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <img src="assets/lista2.jpg" alt="">
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <img src="assets/lista3.webp" alt="">
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <img src="assets/lista4.webp" alt="">
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <img src="assets/lista5.webp" alt="">
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <img src="assets/lista6.webp" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- MAIN -->
+  <main>
+    <!-- NEW SECTION-->
+    <section id="new">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 col-lg-2">
+            <h3>Nuovi arrivi</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/new1.webp" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/new2.webp" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/new3.webp" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/new4.webp" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/new5.webp" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/new6.webp" alt="">
+          </div>
+      </div>
+    </section>
+    <!-- FILM SECTION -->
+    <section id="film">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 col-lg-2">
+            <h3>Film</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/film1.jpg" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/film2.webp" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/film3.jpg" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/film4.webp" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/film5.webp" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/film6.webp" alt="">
+          </div>
+      </div>
+    </section>
+    <!-- BIG FILM -->
+    <section id="big-film">
+      <div class="container-fluid">
+        <div id="container-items" class="row">
+          <div class="col-lg-7">
+            <img class="img-responsive" src="assets/bg-narcos.webp" alt="">
+          </div>
+          <div class="col-lg-5 text-center">
+              <img class="img-responsive center-block" src="assets/narcos-big.webp" alt="">
+              <button id="play-button" type="button" class="btn btn-default">Riproduci</button>
+              <button id="info-button" type="button" class="btn btn-default">Altre info</button>
+              <p class="text-left">Questa nuova e cruda saga targata "Narcos" racconta la genesi della narcoguerra messicana negli anni '80 con la storia vera dell'ascesa del cartello di Guadalajara.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERIE SECTION -->
+    <section id="serie">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 col-lg-2">
+            <h3>Serie TV</h3>
+          </div>6
+        </div>
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/serie1.jpg" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/serie2.jpg" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/serie3.webp" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/serie4.jpg" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/serie5.jpg" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+            <img class="img-responsive" src="assets/serie6.jpg" alt="">
+          </div>
+      </div>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-12 text-center">
+            <h5>Copyright &copy; Matflix 2020 by Matt Leuterio</h5>
+            <div id="social" class="col-md-12 col-lg-12">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"<i class="fab fa-google-plus-g"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+<!-- Librerie JS -->
+<!-- jQuery -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<!-- Bootstrap 3 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
